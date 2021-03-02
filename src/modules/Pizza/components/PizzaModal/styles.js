@@ -1,32 +1,18 @@
 import styled from "styled-components";
 
-export const ModalContainer = styled.div`
-  padding: 0 16px;
-  max-width: 800px;
-  max-height: 80%;
-  height: 100%;
-  background-color: #fff;
-  border-radius: 6px;
-  display: flex;
-  flex-direction: column;
-`;
-
-export const ModalHeader = styled.div`
-  height: 50px;
-  flex-shrink: 0;
-  display: flex;
+export const Actions = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  font-size: 25px;
-`;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
 
-export const ModalFooter = styled.div`
-  height: 50px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-`;
+  &:first-child {
+    justify-self: start;
+  }
 
-export const ModalBody = styled.div`
-  overflow-y: auto;
-  height: 100%;
+  &:last-child {
+    justify-self: end;
+  }
 `;
