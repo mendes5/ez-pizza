@@ -48,7 +48,7 @@ export const PizzaForm = ({ options, page }) => {
             <FieldGroupHeader>
               <FieldGroupTitle>Borda</FieldGroupTitle>
               <FieldGroupDescription>
-                Time to choose Mr freeman...
+                <i>"Só a borda deveria ser um prato por si só..."</i> -GhostRider97 2021
               </FieldGroupDescription>
             </FieldGroupHeader>
             <OptionGroup>
@@ -67,7 +67,7 @@ export const PizzaForm = ({ options, page }) => {
             <FieldGroupHeader>
               <FieldGroupTitle>Tamanho</FieldGroupTitle>
               <FieldGroupDescription>
-                Time to choose Mr freeman...
+              Time to choose Mr freeman...
               </FieldGroupDescription>
             </FieldGroupHeader>
             <OptionGroup>
@@ -90,7 +90,7 @@ export const PizzaForm = ({ options, page }) => {
             <FieldGroupHeader>
               <FieldGroupTitle>Recheio</FieldGroupTitle>
               <FieldGroupDescription>
-                Time to choose Mr freeman...
+                Recheios tão perfeitos que são proibidos em 8 estados.
               </FieldGroupDescription>
             </FieldGroupHeader>
             <OptionGroup>
@@ -111,7 +111,7 @@ export const PizzaForm = ({ options, page }) => {
             <FieldGroupHeader>
               <FieldGroupTitle>Extras</FieldGroupTitle>
               <FieldGroupDescription>
-                Time to choose Mr freeman...
+                Boa sorte...
               </FieldGroupDescription>
             </FieldGroupHeader>
             <OptionGroup>
@@ -172,7 +172,7 @@ export const PizzaForm = ({ options, page }) => {
             </ul>
 
             <span>Alguma observação para o entregador?</span>
-            <CommentsInput name="comments" />
+            <CommentsInput placeholder="Aceitamos elogios ;)" name="comments" />
           </FieldGroup>
         </Page>
       )}
