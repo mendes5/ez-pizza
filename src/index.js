@@ -1,18 +1,21 @@
-import "./index.css";
+import "./reset.css";
 
 import { QueryClient, QueryClientProvider } from "react-query";
 
-import App from "./App";
+import Page from "./pages";
 import React from "react";
 import ReactDOM from "react-dom";
+import SnackbarProvider from "react-simple-snackbar";
 
 const queryClient = new QueryClient();
 
 ReactDOM.render(
   <React.StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <App />
-    </QueryClientProvider>
+    <SnackbarProvider>
+      <QueryClientProvider client={queryClient}>
+        <Page />
+      </QueryClientProvider>
+    </SnackbarProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
