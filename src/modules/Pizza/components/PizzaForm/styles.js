@@ -1,4 +1,4 @@
-import { Input } from "../../../Form";
+import { Input } from "modules/Form";
 import styled from "styled-components";
 
 export const CommentsInput = styled(Input)`

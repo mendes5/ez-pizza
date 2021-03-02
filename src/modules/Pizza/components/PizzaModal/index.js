@@ -1,23 +1,23 @@
-import { Form, Formik } from "formik";
 import {
+  Button,
   ModalBody,
   ModalContainer,
   ModalFooter,
   ModalHeader,
   ModalRoot,
-} from "../../../UI/Modal";
+} from "modules/UI";
+import { Form, Formik } from "formik";
 import {
   useErrorNotification,
   useSuccessNotification,
-} from "../../../../hooks/notifications";
+} from "hooks/notifications";
 import {
   usePizzaOptions,
   usePizzaRecommendation,
   usePizzaSubmit,
-} from "../../../../hooks/api";
+} from "hooks/api";
 
 import { Actions } from "./styles";
-import { Button } from "../../../UI";
 import { PizzaForm } from "../PizzaForm";
 import { useState } from "react";
 

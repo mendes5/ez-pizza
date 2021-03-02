@@ -1,7 +1,7 @@
 import Logo from "../Logo";
 import UserPoints from "../UserPoints";
 import styled from "styled-components";
-import { useUserPointCount } from "../../../../hooks/api";
+import { useUserPointCount } from "hooks/api";
 
 const Container = styled.header`
   display: flex;

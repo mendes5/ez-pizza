@@ -1,8 +1,8 @@
-import { Body, Header, MenuItems } from "../modules/App";
+import { Body, Header, MenuItems } from "modules/App";
 import { useCallback, useState } from "react";
 
 import { AppContainer } from "./styles";
-import { PizzaModal } from "../modules/Pizza";
+import { PizzaModal } from "modules/Pizza";
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

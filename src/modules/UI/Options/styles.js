@@ -1,9 +1,9 @@
-import { Checkbox, Radio } from "../../Form";
+import { Checkbox, Radio } from "modules/Form";
 
-import CheckboxCheck from "../../../images/checkbox.svg";
-import CheckboxUncheck from "../../../images/checkbox-uncheck.svg";
-import RadioCheck from "../../../images/radio.svg";
-import RadioUncheck from "../../../images/radio-uncheck.svg";
+import CheckboxCheck from "images/checkbox.svg";
+import CheckboxUncheck from "images/checkbox-uncheck.svg";
+import RadioCheck from "images/radio.svg";
+import RadioUncheck from "images/radio-uncheck.svg";
 import styled from "styled-components";
 
 export const OptionCard = styled.label`

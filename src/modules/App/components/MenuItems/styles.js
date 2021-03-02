@@ -1,4 +1,4 @@
-import PizzaIcon from "../../../../images/pizza.jpg";
+import PizzaIcon from "images/pizza.jpg";
 import styled from "styled-components";
 
 export const Container = styled.div`

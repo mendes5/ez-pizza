@@ -1,4 +1,4 @@
-import LetEmKnow from "../../../../images/glitchlit.png";
+import LetEmKnow from "images/glitchlit.png";
 import styled from "styled-components";
 
 export const Container = styled.div`

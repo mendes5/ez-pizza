@@ -1,4 +1,4 @@
-import TicketImage from "../../../../images/ticket.svg";
+import TicketImage from "images/ticket.svg";
 import { space } from "styled-system";
 import styled from "styled-components";
 

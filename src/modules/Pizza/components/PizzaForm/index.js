@@ -14,7 +14,7 @@ import {
   SizeOption,
   Value,
 } from "./styles";
-import { CheckboxOption, RadioOption } from "../../../UI";
+import { CheckboxOption, RadioOption } from "modules/UI";
 
 import { CurrencyValue } from "../CurrencyValue";
 import { useFormikContext } from "formik";

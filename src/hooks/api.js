@@ -3,7 +3,7 @@ import {
   GET_PIZZA_RECOMMENDATION,
   GET_USER_POINT_COUNT,
 } from "../constants";
-import { apiGet, apiPost } from "../modules/API";
+import { apiGet, apiPost } from "modules/API";
 import { useMutation, useQuery, useQueryClient } from "react-query";
 
 import { useErrorNotification } from "./notifications";

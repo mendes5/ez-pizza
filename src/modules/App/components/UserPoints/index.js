@@ -1,6 +1,6 @@
 import { Container, Inner, Points, Ticket } from "./styles";
 
-import { useSpringValue } from "../../../../hooks/spring-value";
+import { useSpringValue } from "hooks/spring-value";
 
 const UserPoints = ({ points = 0 }) => {
   const [isAnimating, counterRef] = useSpringValue(points);
