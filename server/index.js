@@ -43,7 +43,7 @@ app.post("/pizza", (request, response) => {
   );
 
   let pointsEarned = 0;
-  
+
   if (recommendationAccepted) {
     pointsEarned = serverState.currentPointsToEarn;
     serverState.userPoints += serverState.currentPointsToEarn;
