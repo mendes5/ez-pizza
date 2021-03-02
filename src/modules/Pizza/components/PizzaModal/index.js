@@ -98,6 +98,7 @@ const PizzaModal = ({ isOpen, onCloseClick }) => {
                           ...values,
                           ...recommendation.pizza,
                         });
+                        openSuccessNotification('Recomendação aplicada');
                       }}
                       type="button"
                     >
