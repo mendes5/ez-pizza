@@ -2,7 +2,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const path = require('path');
 
-const { REACT_APP_SERVER_PORT } = require("./utils/env");
 const {
   isRecommendation,
   OPTIONS,
@@ -59,6 +58,6 @@ app.post("/pizza", (request, response) => {
   response.end();
 });
 
-app.listen(REACT_APP_SERVER_PORT, () => {
-  console.log(`Server running on http://localhost:${REACT_APP_SERVER_PORT}`);
+app.listen(process.env.PORT || 5000, () => {
+  console.log(`Server running on http://localhost:${process.env.PORT || 5000}`);
 });
