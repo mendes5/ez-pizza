@@ -1,5 +1,4 @@
 const express = require("express");
-const cors = require("cors");
 const bodyParser = require("body-parser");
 const path = require('path');
 
@@ -13,7 +12,6 @@ const { getRandomPointCount } = require("./utils/random");
 
 const app = express();
 
-app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static(path.join(process.cwd(), 'build')));
 
