@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
+const path = require('path');
 
 const { REACT_APP_SERVER_PORT } = require("./utils/env");
 const {
@@ -14,6 +15,7 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.static(path.join(process.cwd(), 'build')));
 
 const serverState = {
   userPoints: getRandomPointCount(),
